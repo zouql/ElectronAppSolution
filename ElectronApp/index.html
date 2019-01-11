@@ -1,19 +1,36 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport' />
     <title>Hello World!</title>
-  </head>
-  <body>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script>if (typeof module === 'object') { window.jQuery = window.$ = module.exports; };</script>
+</head>
+<body>
     <h1>Hello World!</h1>
     <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    We are using Node.js
+    <script>document.write(process.versions.node)</script>,
+    Chromium
+    <script>document.write(process.versions.chrome)</script>,
+    and Electron
+    <script>document.write(process.versions.electron)</script>.
 
     <script>
-      // You can also require other files to run in this process
-      require('./renderer.js')
+        // You can also require other files to run in this process
+        require('./renderer.js')
     </script>
-  </body>
+    <script>
+        $(function () {
+            
+        });
+    </script>
+</body>
 </html>
