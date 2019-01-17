@@ -29,7 +29,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="app - Copy.js" />
+    <Compile Include="app.js" />
     <Compile Include="main.js" />
     <Compile Include="node_modules\jquery\dist\jquery.js" />
     <Compile Include="renderer.js" />
